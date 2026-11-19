@@ -1,0 +1,10 @@
+case,growth,obs_A,obs_B,nice_A,nice_B
+Base (Phase 3),0.4,385.47,347.64,732.79,633.42
+Projected growth 30%,0.3,385.47,347.64,707.1,635.61
+Projected growth 20%,0.2,385.47,347.64,682.36,637.72
+Projected growth 0%,0.0,385.47,347.64,632.88,641.93
+Oct 2026 concession price,0.4,385.47,347.64,709.79,610.42
+"Actual cost, not list price",0.4,377.52,341.71,709.45,615.36
+Trend fitted on 18 months,0.4,385.47,348.12,732.79,634.38
+Trend fitted on 36 months,0.4,385.47,351.28,732.79,641.34
+Pessimistic: all four together,0.2,377.52,345.17,644.71,609.97
