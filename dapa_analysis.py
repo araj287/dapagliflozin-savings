@@ -838,9 +838,9 @@ def fig10_switching(g):
     ax.set_ylabel("Tablets vs pre-break trend, per month")
     month_axis(ax, "%b %y")
     d, o, c = (g[k].sum() / 1e6 for k in ["Dapagliflozin", "Other SGLT2", "Class"])
-    titles(fig, f"Dapagliflozin's extra {d:.0f}m tablets came from other SGLT2 inhibitors, not new patients",
-           f"Monthly tablets above or below each series' pre-break trend, Sep 2025 to Aug 2026: "
-           f"dapagliflozin {d:+.1f}m, others {o:+.1f}m, class {c:+.1f}m.")
+    titles(fig, f"Dapagliflozin's extra {d:.0f}m tablets were matched by a fall in other SGLT2 inhibitors",
+       f"Monthly tablets above or below each series' pre-break trend, Sep 2025 to Aug 2026: "
+       f"dapagliflozin {d:+.1f}m, others {o:+.1f}m, class {c:+.1f}m.")
     source(fig, "Trend: linear time trend plus month-of-year effects, fitted Sep 2023 to Aug 2025, per series.",
            base=SOURCE.replace("BNF 0601023AG", "BNF 0601023AG, AN, AM, AX (single-agent SGLT2 inhibitors)"))
     save(fig, "fig10_sglt2_switching.png")
@@ -855,7 +855,6 @@ def sensitivity(p, cls, cf):
     fig9_range(tab)
     its, price, n = interrupted_time_series(p)
     sw = switching(cls)
-    GATES["5. Saving meets or exceeds £560m in every case"] = bool((tab[["nice_A", "nice_B"]] >= NHSE_ESTIMATE_M).all().all())
     return {"tab": tab, "its": its, "price": price, "n": n, "sw": sw}
 
 

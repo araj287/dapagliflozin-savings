@@ -1,0 +1,9 @@
+window,classdef,A,B,C,dapa_vs_trend_m,others_vs_trend_m,class_vs_trend_m
+Observed Sep25-Aug26,mono,385.4,347.6,386.5,28.9,-29.8,-0.8
+Observed Sep25-Aug26,incl combos,385.4,347.6,387.3,28.9,-30.9,-1.9
+FY25/26,mono,176.0,167.3,173.8,6.6,-4.9,1.7
+FY25/26,incl combos,176.0,167.3,173.9,6.6,-5.1,1.5
+FY26/27 (7m projected),mono,556.8,466.1,545.4,69.4,-60.7,8.7
+FY26/27 (7m projected),incl combos,556.8,466.1,547.0,69.4,-62.9,6.5
+NICE window Apr25-Mar27,mono,732.8,633.4,719.2,76.0,-65.6,10.4
+NICE window Apr25-Mar27,incl combos,732.8,633.4,720.8,76.0,-68.0,8.1
